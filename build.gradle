@@ -41,3 +41,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+bootJar {
+	archivesBaseName = 'dont-give-up-chart'
+	archiveFileName = 'dont-give-up-chart.jar'
+	archiveVersion = "0.0.0"
+}
